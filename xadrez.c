@@ -32,5 +32,5 @@ int main() {
 }
 int main(){
     printf("Desafio de xadrez"!\n);
-    
+    printf("Novo commit\n")
 }
