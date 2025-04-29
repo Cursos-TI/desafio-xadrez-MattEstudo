@@ -34,3 +34,10 @@ int main(){
     printf("Desafio de xadrez"!\n);
     printf("Novo commit\n")
 }
+int main(){
+    // mover a torre 5 casa para a direita 
+    for (int i = 0;   i <  5;  i++) {
+        printf("Direita\n"); // Imprime a direção do movimento 
+    }
+    return 0;
+}
