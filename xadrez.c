@@ -28,8 +28,8 @@
     // Sugestão: Implemente
 int torre(){
     // mover a torre 5 casa para a direita 
-    for (int i = 0;   i <  5;  i++) {
-        printf("Direita\n"); // Imprime a direção do movimento 
+    for (int i = 1;   i <  6;  i++) {
+        printf("movimenta a torre %d Direita\n",i); // Imprime a direção do movimento 
     }
     return 0;
 }
@@ -45,10 +45,22 @@ int bispo() {
 
         i++;
     }
+    
+   
+    return 0;
+}
+int rainha() {
+    int i = 1;
+   
+    do {
+        printf("mover a rainha %d  esquerda \n", i);
+        i++;
+    } while (i <= 8);
    
     return 0;
 }
 int main(){
     torre();
     bispo();
+    rainha();
 }
