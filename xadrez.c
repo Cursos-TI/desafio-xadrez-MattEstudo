@@ -30,3 +30,7 @@ int main() {
 
     return 0;
 }
+int main(){
+    printf("Desafio de xadrez"!\n);
+    
+}
