@@ -53,11 +53,16 @@ int rainha() {
     int i = 1;
    
     do {
-        printf("mover a rainha %d  esquerda \n", i);
+     //  printf("mover a rainha %d  esquerda \n", i);
+     movimentar(i, "esquedar","raimha");
         i++;
     } while (i <= 8);
    
     return 0;
+}
+int movimentar(int posicao,char direcao[100],char peca[10]){
+    printf("mover a %s %d casa %s \n", peca,posicao,direcao);
+
 }
 int main(){
     torre();
