@@ -26,10 +26,29 @@
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
 
     // Sugestão: Implemente
-int main(){
+int torre(){
     // mover a torre 5 casa para a direita 
     for (int i = 0;   i <  5;  i++) {
         printf("Direita\n"); // Imprime a direção do movimento 
     }
     return 0;
+}
+int bispo() {
+    
+    int i = 1;
+   
+    while (i <= 5) {
+        // mover o bispo para cima 
+        printf("movimenta o bispo %d casa cima \n", i);
+        // mover o bispo para direita
+        printf("movimenta o bispo %d casa direita \n", i);
+
+        i++;
+    }
+   
+    return 0;
+}
+int main(){
+    torre();
+    bispo();
 }
